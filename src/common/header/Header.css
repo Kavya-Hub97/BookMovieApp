@@ -1,0 +1,45 @@
+.header{
+    background-color: #222;
+    height:36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 16px;    
+}
+
+.logoIcon{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: logo-spin infinite 8s linear;
+    float: left;
+}
+.login_button{
+    color: default;
+    float:right;
+
+}
+.logout_button{
+    color: default;
+    float:right;
+}
+@keyframes logo-spin{
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.bookShowButton{
+    color: primary;
+    float: right;
+    margin-right:8px;
+}
+
+.multiple_tabs{
+    margin-bottom: 20px;
+}
+.displayNone{
+    display:none;
+}
+
+.displayBlock {
+    display: block;
+}
